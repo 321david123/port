@@ -76,7 +76,21 @@
     .jew{
     height: 540px;
   }
+
 }
+@media (max-width: 1100px) {
+  .asd{
+    width: 500px; 
+
+  }
+  .container{
+    width: auto;
+    margin-inline: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
     </style>
     <!DOCTYPE html>
     <html lang="en">
@@ -126,23 +140,23 @@
 
           <ul class="nav__list">
             <li class="nav__item">
-              <a href="#" class="nav__link">Home</a>
+              <a href="../../index.html" class="nav__link">Home</a>
             </li>
 
             <li class="nav__item">
-              <a href="#about" class="nav__link">About me</a>
+              <a href="../../index.html#about" class="nav__link">About me</a>
             </li>
 
             <li class="nav__item">
-              <a href="#projects" class="nav__link">Projects</a>
+              <a href="../../index.html#projects" class="nav__link">Projects</a>
             </li>
 
             <li class="nav__item">
-              <a href="./assets/davidcv/index.html" class="nav__link">CV</a>
+              <a href="#" class="nav__link">CV</a>
             </li>
 
             <li class="nav__item">
-              <a href="#contact" class="nav__link nav__link-button">Contact me</a>
+              <a href="../../index.html#contact" class="nav__link nav__link-button">Contact me</a>
             </li>
           </ul>
 
@@ -154,7 +168,6 @@
 
         <div class="nav__buttons">
           <!-- Theme button -->
-          <i class="ri-moon-line change-theme" id="theme-button"></i>
 
           <!-- Toggle button -->
           <div class="nav__toggle" id="nav-toggle">
@@ -168,11 +181,11 @@
     <main class="main">
       <!--==================== HOME ====================-->
       <section class="home section" id="home">
-        <div class="home__container container ">
+        <div class="">
    
-    <div class="container my-4 d-flex flex-column align-items-center">
+    <div class=" my-4 d-flex flex-column align-items-center">
 
-      <img src="./resume.png" width="800px" style="border: none;" alt="Currículum PDF">
+      <img class="no" src="./resume.png" width="800px" style="border: none;" alt="Currículum PDF">
     </div>
     <div class="text-center my-4">
       <a href="./resume.pdf" target="_blank" class="btn btn-primary">
